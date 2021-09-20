@@ -1,9 +1,9 @@
-import React from "react";
-import { Navbar } from "./components/Navbar";
-import { Home } from "./pages/Home";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { About } from "./pages/About";
-import { Profile } from "./pages/Profile";
+import React from 'react'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import {Navbar} from './components/Navbar'
+import {Home} from './pages/Home'
+import {About} from './pages/About'
+import {Profile} from './pages/Profile'
 
 function App() {
   return (
